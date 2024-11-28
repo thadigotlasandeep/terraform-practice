@@ -5,6 +5,10 @@ resource "aws_instance" "dependent" {
     key_name = "apsouth-1key"
 
 }
-resource "aws_s3_bucket" "dependent" {
+resource "aws_s3_bucket" "dependent" { 
      bucket = "ysgdugdusagd"
+}
+resource "test" "aws_instance_id" {
+  
+  
 }
