@@ -3,6 +3,6 @@
   ami           = "ami-0614680123427b75e"  # Replace with your desired AMI ID
   instance_type = "t2.micro"
   tags = {
-    Name = "honey sis group-${count.index}"
+    Name = "instances-${count.index}"
   }
 }
