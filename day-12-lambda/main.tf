@@ -61,6 +61,6 @@ resource "aws_lambda_function" "my_lambda" {
   }
 
   tags = {
-    Name = "MyLambdaFunction"
+    Name = "MyLambdaFunction"  
   }
 }
