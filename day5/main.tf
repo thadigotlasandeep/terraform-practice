@@ -80,6 +80,6 @@ resource "aws_instance" "dev" {
    key_name        = "apsouth-1key"
    vpc_security_group_ids   = [aws_security_group.allow_tls.id] # Attach security group
    tags = {
-    Name ="rishi" 
+    Name ="sandeep" 
     }
 }
