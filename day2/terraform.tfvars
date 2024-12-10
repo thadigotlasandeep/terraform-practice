@@ -1,4 +1,4 @@
-ami_id = "ami-022ce6f32988af5fa"
+ami_id ="ami-0614680123427b75e"
 instance_type = "t2.micro"
-keypair = "apsouth-1key"
+keypair ="apsouth-1key"
  
