@@ -1,4 +1,4 @@
-ami_id = "ami-03753afda9b8ba740"
+ami_id = "ami-022ce6f32988af5fa "
 instance_type = "t2.micro"
-keypair = "mumbai-k"
+keypair = "apsouth-1key"
  
