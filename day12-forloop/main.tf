@@ -1,6 +1,6 @@
 resource "aws_instance" "web" {
   ami                    = "ami-0614680123427b75e"      #change ami id for different region
-  instance_type          = "t2.micro"
+  instance_type          = "t2.medium"
   key_name               = "apsouth-1key"              #change key name as per your setup
  
   tags = {
